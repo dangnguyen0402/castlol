@@ -1,0 +1,54 @@
+
+.wrapper{
+  display:grid;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  grid-template-columns: 4fr 4fr 2fr;
+  grid-template-rows: 0.5fr 0.2fr 5fr;
+  grid-template-areas: 
+  "header header header"
+  "link1 link2 selectchat"
+  "player1 player2 chat";
+  height: 100vh;
+  grid-gap: 0.4rem;
+}
+
+header{
+  grid-area: header;
+  text-align: center;
+}
+
+.link1{
+  grid-area: link1;
+  background-color: rgba(240, 128, 128, 0.8);
+  text-align: center;
+}
+
+.link2{
+  grid-area: link2;
+  background-color: rgba(240, 128, 128, 0.8);
+  text-align: center;
+}
+
+.selectchat{
+  grid-area: selectchat;
+  background-color: rgba(240, 128, 128, 0.95);
+  text-align: center;
+}
+
+.player1{
+  grid-area: player1;
+}
+
+.player2{
+  grid-area: player2;
+}
+
+.chat{
+  grid-area: chat;
+  text-align: center;
+}
+
+
+
